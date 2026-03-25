@@ -1,0 +1,5 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/amrish407/credit-card-fraud-detection-imbalanced-ml-shap-fastapi-streamlit.dvc
+    auth = basic
