@@ -1,0 +1,28 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Artifacts and logs
+logs/
+artifacts/models/*.joblib
+artifacts/metrics/*.json
+artifacts/metrics/*.csv
+artifacts/plots/*.png
+artifacts/shap/*.png
+
+# Data files
+data/processed/*.csv
+data/sample/*.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
