@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "global_beeswarm_plot": "D:\\Project\\Credit Card Fraud Detection\\artifacts\\shap\\shap_summary_beeswarm.png",
+  "global_bar_plot": "D:\\Project\\Credit Card Fraud Detection\\artifacts\\shap\\shap_summary_bar.png",
+  "local_plots": [
+    "D:\\Project\\Credit Card Fraud Detection\\artifacts\\shap\\shap_local_waterfall_1.png",
+    "D:\\Project\\Credit Card Fraud Detection\\artifacts\\shap\\shap_local_waterfall_2.png"
+  ],
+  "feature_count": 33
+}
