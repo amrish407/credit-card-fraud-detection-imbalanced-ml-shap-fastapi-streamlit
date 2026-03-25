@@ -47,6 +47,7 @@ If a model predicts every transaction as non-fraud, it can still show very high 
 - Streamlit
 - Joblib, Pydantic
 - Pytest
+- DagsHub + MLflow (experiment tracking)
 - Docker
 
 ## 6) Folder Structure
@@ -117,8 +118,14 @@ Expected schema:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate   # Windows
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+pip install -r requirements.txt -c constraints.txt
 ```
+
+Notes:
+- `requirements.txt` keeps dependency names flexible.
+- `constraints.txt` pins a tested set for reproducible local setup.
+- If you intentionally want latest packages, run `pip install -r requirements.txt` without constraints.
 
 ## 9) Run Training Pipeline
 
