@@ -134,6 +134,21 @@ Optional quick-run mode:
 python app.py train --data-path data/raw/creditcard.csv --sample-size 120000 --disable-smoteenn
 ```
 
+DagsHub MLflow tracking (enabled by default):
+
+```bash
+set DAGSHUB_REPO_OWNER=amrish407
+set DAGSHUB_REPO_NAME=credit-card-fraud-detection-imbalanced-ml-shap-fastapi-streamlit
+set MLFLOW_EXPERIMENT_NAME=credit-card-fraud-detection
+python app.py train --data-path data/raw/creditcard.csv
+```
+
+Disable MLflow for a single run:
+
+```bash
+python app.py train --data-path data/raw/creditcard.csv --disable-mlflow
+```
+
 Generated outputs include:
 - `artifacts/models/best_model.joblib`
 - `artifacts/models/model_metadata.json`
